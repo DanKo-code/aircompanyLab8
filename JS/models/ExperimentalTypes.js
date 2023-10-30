@@ -1,8 +1,10 @@
-const ExperimentalTypes   = {
-    LIFTING_BODY: 'lifting_body',
-    HYPERSONIC: 'HYPERSONIC',
-    HIGH_ALTITUDE: 'HIGH_ALTITUDE',
+// Changed lvalue writing
+
+const ExperimentalTypes = {
+    LIFTING_BODY: 'lifting Body',
+    HYPERSONIC: 'Hypersonic',
+    HIGH_ALTITUDE: 'High Altitude',
     VTOL: "VTOL"
 };
 
-module.exports =  ExperimentalTypes ;
+module.exports = ExperimentalTypes;
